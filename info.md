@@ -3,3 +3,11 @@
 * cd My-app
 * npm install
 * npm run dev
+
+
+
+* npm run build 
+* npm run preview
+
+
+**Para subirlo ir a la documentacion de vite**

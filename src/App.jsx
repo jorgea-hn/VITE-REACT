@@ -7,11 +7,12 @@ import Navegacion from "./components/Navegacion"
 
 function App() {
   const [count, setCount] = useState(0)
-
+  var nombre = "Jorge"
   return (
+
     <div className="App">
       <Navegacion/>
-      <h1>Hola mundo</h1>
+      <h1>Bienvenido {nombre}</h1>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
