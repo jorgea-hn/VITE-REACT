@@ -11,3 +11,10 @@
 
 
 **Para subirlo ir a la documentacion de vite**
+
+
+**Documentacion de react actualizada**
+https://react.dev/learn/start-a-new-react-project
+
+**Documentacion de react-route**
+https://reactrouter.com/en/main/start/tutorial

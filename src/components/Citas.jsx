@@ -1,4 +1,4 @@
-import Navegacion from "./Navegacion"
+import Navegacion from "./nav/Navegacion"
 function Citas(){
     return (
         <div>

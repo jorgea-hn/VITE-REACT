@@ -1,5 +1,6 @@
 import React from "react";
-import Li from "./Li";
+import Li from "../Li";
+import "./navegacion.css"
 function Navegacion(){
     return (
         <div>

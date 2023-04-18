@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 
-import Navegacion from "./components/Navegacion"
+import Navegacion from "./components/nav/Navegacion"
 
 
 

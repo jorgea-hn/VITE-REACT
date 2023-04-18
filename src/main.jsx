@@ -11,7 +11,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Navegacion from './components/Navegacion';
+// import Navegacion from './components/Navegacion';
 
 const router = createBrowserRouter([
   {
