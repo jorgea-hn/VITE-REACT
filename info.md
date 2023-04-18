@@ -5,7 +5,7 @@
 * npm run dev
 
 
-
+* npm install react-router-dom localforage match-sorter sort-by
 * npm run build 
 * npm run preview
 
