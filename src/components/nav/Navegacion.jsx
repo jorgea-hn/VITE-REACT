@@ -6,7 +6,7 @@ function Navegacion(){
         <div>
             
         <nav>
-            <ul>
+            <ul className="nav-ul">
                 <Li 
                 text={"Home"}
                 link="/"
