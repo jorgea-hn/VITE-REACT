@@ -13,6 +13,7 @@ function Home(){
             Atque velit veniam quia. Tempore, aliquid inventore. Sed molestiae vero dolorum exercitationem odit quas explicabo magni adipisci rerum! Rem sint maxime, aut quis architecto corrupti illo doloribus ratione ut ab!
             Eligendi ipsa cupiditate quaerat, omnis expedita harum molestiae adipisci deleniti velit eos aperiam illo, quos accusantium debitis sapiente voluptate dolorum odio, distinctio ducimus. Tenetur quibusdam nesciunt sit, ab distinctio in?
             Odit totam nesciunt alias. Maiores sint illum eos officiis quibusdam repudiandae facere qui nisi numquam quam esse explicabo aliquid, necessitatibus, tempore doloribus distinctio temporibus corporis! Velit ipsa possimus officia ipsam.</p>
+            <h2>Aprendiendo a automatizar deploy</h2>        
         </div>
     )
 }
