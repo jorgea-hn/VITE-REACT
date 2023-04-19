@@ -18,3 +18,13 @@ https://react.dev/learn/start-a-new-react-project
 
 **Documentacion de react-route**
 https://reactrouter.com/en/main/start/tutorial
+
+
+**Hacer deploy**
+
+Se instala git pages
+* npm install --save gh-pages
+
+Se agregan el predeploy y el deploy en script del package.json
+* "predeploy": "npm run build",
+  "deploy":"gh-pages -d dist",

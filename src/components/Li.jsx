@@ -1,10 +1,8 @@
+import { Link } from "react-router-dom"
 
 function Li(props){
     return (
-        <li>
-            <a href={props.link}>{props.text}</a>
-        </li>
+        <Link className="link" to={props.link}>{props.text}</Link>
     )
 }
-
 export default Li

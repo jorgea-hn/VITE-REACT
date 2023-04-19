@@ -6,7 +6,7 @@ function Citas() {
 
     useEffect(() => {
         if (!refresh){
-            return    
+            return undefined
         }
         const randomNum = Math.floor(Math.random() * 151) + 1
         fetch(`https://pokeapi.co/api/v2/pokemon/${randomNum}`)

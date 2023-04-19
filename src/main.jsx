@@ -7,34 +7,22 @@ import Personajes from './components/Personajes'
 import Episodios from './components/Episodios'
 import Citas from './components/Citas'
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-// import Navegacion from './components/Navegacion';
+import { HashRouter,Routes,Route } from 'react-router-dom'
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home/>,
-  },
-  {
-    path: "/Personajes",
-    element: <Personajes/>,
-  },
-  {
-    path: "/Episodios",
-    element: <Episodios/>,
-  },
-  {
-    path: "/Citas",
-    element: <Citas/>,
-  },
-]);
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-    <footer>Hola soy el footer</footer>
+    <HashRouter>
+      <Routes>
+        <Route path='/' element={<App/>}>
+          <Route index element={<Home/>}></Route>
+          <Route path='/Personajes' element={<Personajes/>}></Route>
+          <Route path='/Episodios' element={<Episodios/>}></Route>
+          <Route path='/Citas' element={<Citas/>}></Route>
+        </Route>
+      </Routes>
+    </HashRouter>
+
   </React.StrictMode>,
 )
