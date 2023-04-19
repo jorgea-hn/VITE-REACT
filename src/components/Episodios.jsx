@@ -4,6 +4,7 @@ function Episodios(){
         <div>
             <Navegacion/>
             <h1>Episodios</h1>
+            <h2>Nueva serie pokemon</h2>
         </div>
     )
 }
