@@ -12,7 +12,7 @@ function Navegacion(){
                 link="/"
                 />
                 <Li 
-                text={"Personajes"}
+                text={"Pokedex"}
                 link="/personajes"
                 />
                 <Li 
@@ -20,7 +20,7 @@ function Navegacion(){
                 link="/episodios"
                 />
                 <Li 
-                text={"Citas"}
+                text={"Anime"}
                 link="/citas"
                 />
             </ul>
