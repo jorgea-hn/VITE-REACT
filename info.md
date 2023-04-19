@@ -28,3 +28,6 @@ Se instala git pages
 Se agregan el predeploy y el deploy en script del package.json
 * "predeploy": "npm run build",
   "deploy":"gh-pages -d dist",
+
+**Automatizar el deploy**
+* code .github/workflow/build-deploy.yml
